@@ -3,7 +3,7 @@
 # CALCULADORA SIMPLES
 
 
-#laço de repetição para que seja pssível mais de uma conta sem sair do programa.
+#laço de repetição para que seja pssível mais de um cálculo sem sair do programa.
 while True:
 
     def calculadora():
@@ -51,7 +51,7 @@ while True:
             num1 = int(input('\nQual numero deseja dividir? : '))
             num2 = int(input('Qual o outro numero para dividir: '))
             print(f'\nA divisão é igual a: {divisao(num1, num2)}')
-            
+
         #Trata uma possível opção inválida digitada pelo usuário
         else:
             print('Opção inválida.')
